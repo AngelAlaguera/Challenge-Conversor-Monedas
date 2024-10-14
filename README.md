@@ -43,7 +43,7 @@ DESAFIO-CONVERSOR-MONEDAS/
 │                            └── App.java         // Clase principal del proyecto.
 └── README.md 
 ```
-** El proyecto se organiza de la siguiente manera:** 
+**El proyecto se organiza de la siguiente manera:** 
 
 - .idx:
     - .nix: Archivo que define los paquetes necesarios de Java y las extensiones de VS Code.
