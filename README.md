@@ -62,7 +62,7 @@ DESAFIO-CONVERSOR-MONEDAS/
 
 **Instalación:**
 
-1. Clonar el repositorio: `git clone [https://github.com/AngelAlaguera/Challenge-Conversor-Monedas/tree/main]`
+1. Clonar el repositorio: `git clone [https://github.com/AngelAlaguera/Challenge-Conversor-Monedas.git]`
 2. Abrir el proyecto en un IDE Java o Project IDX (VS Code en la nube).
 3. Ejecutar la clase `App.java`.
 
