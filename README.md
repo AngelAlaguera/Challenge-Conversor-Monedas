@@ -43,9 +43,17 @@ DESAFIO-CONVERSOR-MONEDAS/
 │                            └── App.java         // Clase principal del proyecto.
 └── README.md 
 ```
+** El proyecto se organiza de la siguiente manera:** 
+
+- .idx:
+    - .nix: Archivo que define los paquetes necesarios de Java y las extensiones de VS Code.
+- .vscode:
+    - settings.json: Configura las estructuras de carpetas, paquetes y herramientas de autocompletado.
+- bin: Contiene las clases bitcode necesarias para el intérprete de Java.
+    - lib: Almacena los paquetes .jar que no están disponibles en Project IDX.
+- src: Contiene los archivos .java del proyecto de conversión de monedas.
 
 **Uso:**
-
 1. Ejecutar la clase `App.java`.
 2. El programa solicitará la moneda de origen y la moneda a la que se desea convertir.
     - Puede ingresar la abreviatura de la moneda (USD, EUR, etc.) o el nombre del país o región.
@@ -54,8 +62,8 @@ DESAFIO-CONVERSOR-MONEDAS/
 
 **Instalación:**
 
-1. Clonar el repositorio: `git clone [url del repositorio]`
-2. Abrir el proyecto en un IDE Java.
+1. Clonar el repositorio: `git clone [https://github.com/AngelAlaguera/Challenge-Conversor-Monedas]`
+2. Abrir el proyecto en un IDE Java o Project IDX (VS Code en la nube).
 3. Ejecutar la clase `App.java`.
 
 **Agradecimientos:**
